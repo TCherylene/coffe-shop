@@ -34,5 +34,5 @@ Coming Soon
 
 ## References
 
-- [https://cdnjs.com/libraries/jquery](jQuery)
-- [https://www.jqueryscript.net/layout/Simple-jQuery-Responsive-Tabs-Interface-Plugin-jQueryTab.html](jQueryTab)
+- [jQuery](https://cdnjs.com/libraries/jquery)
+- [jQueryTab](https://www.jqueryscript.net/layout/Simple-jQuery-Responsive-Tabs-Interface-Plugin-jQueryTab.html)
