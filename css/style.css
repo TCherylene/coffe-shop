@@ -255,6 +255,36 @@ nav ul li a:hover {
   height: 34px;
 }
 
+.text1,
+.text2,
+.text3 {
+  color: var(--dl-color-neutralcolor-black);
+  height: auto;
+  font-style: Regular;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 120%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.text1 {
+  font-size: 64px;
+  text-align: center;
+  font-family: Playfair Display;
+  font-weight: 500;
+}
+
+.text2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.text3 {
+  font-size: 24px;
+  color: #fff;
+}
+
 .jumbotron__container-image {
   width: 100%;
   display: flex;
@@ -332,6 +362,7 @@ nav ul li a:hover {
 }
 
 /* Our Products */
+/* Tabs */
 .tabs-container {
   width: 100%;
 }
@@ -350,7 +381,7 @@ nav ul li a:hover {
 
 .tabs-container .tabs li {
   border-radius: 9999px;
-  padding: 0 0.3rem;
+  padding: 0 1rem;
 }
 
 .tabs-container .tabs li.active {
@@ -368,10 +399,77 @@ nav ul li a:hover {
 .tabs-container .tab_content_wrapper .tab_content {
   border: 0;
   background-color: white;
+  width: 100%;
 }
 
 .toggle_border {
   border: 0;
+}
+
+/* Our products: Card */
+.card-our-products-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+
+}
+
+.card-our-products {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.card-our-products__image {
+  width: 100% !important;
+}
+
+.card-our-products__body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.card-our-products__body .card-our-products__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.card-our-products__body p {
+  font-size: 1rem;
+}
+
+.card-our-products__body .card-our-products__caption span {
+  font-size: 1.25rem;
+  color: var(--grey);
+}
+
+.card-our-products__body .card-our-products__caption span:first-child {
+  font-weight: 700;
+}
+
+.card-our-products__body .card-our-products__caption span:last-child {
+  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.card-our-products__body .card-our-products__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--grey);
+}
+
+.button--products {
+  padding: 0.3rem 2.5rem;
+  border-radius: 0.5rem;
+}
+
+.fa-star.active {
+  color: #ffb31f;
 }
 
 /* Testimonial */
