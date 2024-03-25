@@ -1,9 +1,9 @@
-$('.tabs-4').jQueryTab({
+$('.tabs-container').jQueryTab({
     "responsive": "yes",
     "collapsible": "no",
     "usecookie": "yes",
     "event": "hover",
-    "transition": "slideUp",
+    "transition": "fade",
     "callback functions": "none",
-    "initialtab": 3,
+    "initialtab": 1,
 });
