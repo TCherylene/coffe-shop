@@ -27,6 +27,10 @@ html {
   color: #282a3a;
 }
 
+body {
+  background-color: white;
+}
+
 h1,
 h2,
 h3,
@@ -111,13 +115,17 @@ h6 {
 
 a.button {
   text-decoration: none;
+  color: white;
 }
 
 .button {
   padding: 1.5rem 2.5rem;
   background-color: var(--secondary);
-  color: white;
   font-size: 1.5rem;
+}
+
+.button:hover {
+  background-color: rgba(var(--secondary-rgb), 0.9);
 }
 
 .button-playfair {
@@ -159,7 +167,7 @@ hr.style-two {
 
 /* Navbar */
 nav.container {
-  padding: 0 var(--padding-margin-size);
+  padding: 1rem var(--padding-margin-size);
 }
 
 .navbar {
@@ -187,6 +195,7 @@ nav ul li a {
 
   padding: 8px 0;
   transition: all 300ms;
+  font-size: 1.5em;
 }
 
 nav ul li a:hover {
@@ -194,6 +203,15 @@ nav ul li a:hover {
   border-bottom: 1px solid #6d1600;
 }
 
+.navbar__icon {
+  margin-right: 1rem;
+}
+
+.navbar-extra {
+  font-size: 1.5em;
+}
+
+/* Jumbotron */
 .containerHome {
   margin-top: 5rem;
   width: 100%;
@@ -220,6 +238,21 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.button1 {
+  gap: 16px;
+  display: flex;
+  padding: 24px 48px;
+  align-items: center;
+  border-radius: 0 32px;
+  justify-content: center;
+  background-color: #6d1600;
+}
+
+.arrowbutton {
+  width: 34px;
+  height: 34px;
 }
 
 .text1,
@@ -250,21 +283,6 @@ nav ul li a:hover {
 .text3 {
   font-size: 24px;
   color: #fff;
-}
-
-.button1 {
-  gap: 16px;
-  display: flex;
-  padding: 24px 48px;
-  align-items: center;
-  border-radius: 0 32px;
-  justify-content: center;
-  background-color: #6d1600;
-}
-
-.arrowbutton {
-  width: 34px;
-  height: 34px;
 }
 
 .jumbotron__container-image {
@@ -341,6 +359,117 @@ nav ul li a:hover {
   line-height: 120%;
   font-stretch: normal;
   font-family: "Playfair Display", serif;
+}
+
+/* Our Products */
+/* Tabs */
+.tabs-container {
+  width: 100%;
+}
+
+.tabs-container .tabs {
+  margin: auto;
+  width: fit-content;
+  border: 0;
+  background-color: rgba(var(--grey-rgb), 0.1);
+  border-radius: 9999px;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.tabs-container .tabs li {
+  border-radius: 9999px;
+  padding: 0 1rem;
+}
+
+.tabs-container .tabs li.active {
+  background-color: white;
+}
+
+.tabs-container .tabs li a {
+  border: 0;
+  color: var(--grey);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.tabs-container .tab_content_wrapper .tab_content {
+  border: 0;
+  background-color: white;
+  width: 100%;
+}
+
+.toggle_border {
+  border: 0;
+}
+
+/* Our products: Card */
+.card-our-products-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+
+}
+
+.card-our-products {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.card-our-products__image {
+  width: 100% !important;
+}
+
+.card-our-products__body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.card-our-products__body .card-our-products__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.card-our-products__body p {
+  font-size: 1rem;
+}
+
+.card-our-products__body .card-our-products__caption span {
+  font-size: 1.25rem;
+  color: var(--grey);
+}
+
+.card-our-products__body .card-our-products__caption span:first-child {
+  font-weight: 700;
+}
+
+.card-our-products__body .card-our-products__caption span:last-child {
+  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.card-our-products__body .card-our-products__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--grey);
+}
+
+.button--products {
+  padding: 0.3rem 2.5rem;
+  border-radius: 0.5rem;
+}
+
+.fa-star.active {
+  color: #ffb31f;
 }
 
 /* Testimonial */

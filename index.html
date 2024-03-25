@@ -4,12 +4,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css"
-    integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGIgAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Library Tabs -->
+  <link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/tabs/jQueryTab.css?v2022" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/tabs/animation.css?v2022" type="text/css" media="screen" />
 
+  <link rel="stylesheet" href="css/style.css" />
   <link rel="shortcut icon" href="assets/logo/Logo.png" type="image/x-icon" />
+
   <title>Coffeeshop by Ngopi</title>
 </head>
 
@@ -35,7 +38,7 @@
         </li>
       </ul>
       <div class="navbar-extra">
-        <a href="#" id="search"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="#" id="search"><i class="fa-solid fa-magnifying-glass navbar__icon"></i></a>
         <a href="#" id="shopping-cart"><i class="fa-solid fa-bag-shopping"></i></a>
       </div>
     </div>
@@ -70,7 +73,7 @@
     </div>
   </section>
 
-  <!-- Image -->
+  <!-- Jumbotron: Image -->
   <section class="container">
     <div class="jumbotron__container-image">
       <img src="assets/jumbotron/Rectangle_1464.png" alt="Rectangle1464135" class="ImgHome" />
@@ -81,7 +84,7 @@
     </div>
   </section>
 
-  <!-- Rate -->
+  <!-- Jumbotron: Rate -->
   <hr class="style-two">
   <div class="container">
     <div class="sectionRate">
@@ -106,6 +109,344 @@
       </div>
     </div>
   </div>
+
+  <!-- Our Products -->
+  <hr class="style-two" />
+  <section class="container" id="our-products">
+    <div class="title">
+      <p class="section-title">Our Products</p>
+      <h3 class="section-subtitle">From Top Quality Materials</h3>
+    </div>
+    <div class="tabs-container">
+      <ul class="tabs">
+        <li><a href="#latte">Latte</a></li>
+        <li><a href="#robusta">Robusta</a></li>
+        <li><a href="#acabica">Acabica</a></li>
+      </ul>
+      <section class="tab_content_wrapper">
+        <!-- Latte -->
+        <article class="tab_content" id="latte">
+          <div class="card-our-products-container">
+            <!-- Cards -->
+            <div class="card-our-products">
+              <img src="./assets/products/Rectangle_1461.png" class="card-our-products__image" alt="">
+              <div class="card-our-products__body">
+                <div class="card-our-products__title">
+                  Chocolate Latte
+                </div>
+                <div class="card-our-products__caption">
+                  <span>
+                    <i class="fa fa-star active"></i>
+                    4.9
+                  </span>
+                  <span>
+                    (360 reviews)
+                  </span>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+
+                <div class="card-our-products__footer">
+                  <span>$2.9</span>
+                  <a href="#" class="button button--products">+</a>
+                </div>
+              </div>
+            </div>
+            <!-- Cards -->
+            <div class="card-our-products">
+              <img src="./assets/products/Rectangle_1462.png" class="card-our-products__image" alt="">
+              <div class="card-our-products__body">
+                <div class="card-our-products__title">
+                  Chocolate Latte
+                </div>
+                <div class="card-our-products__caption">
+                  <span>
+                    <i class="fa fa-star active"></i>
+                    4.9
+                  </span>
+                  <span>
+                    (360 reviews)
+                  </span>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+
+                <div class="card-our-products__footer">
+                  <span>$2.9</span>
+                  <a href="#" class="button button--products">+</a>
+                </div>
+              </div>
+            </div>
+            <!-- Cards -->
+            <div class="card-our-products">
+              <img src="./assets/products/Rectangle_1463.png" class="card-our-products__image" alt="">
+              <div class="card-our-products__body">
+                <div class="card-our-products__title">
+                  Chocolate Latte
+                </div>
+                <div class="card-our-products__caption">
+                  <span>
+                    <i class="fa fa-star active"></i>
+                    4.9
+                  </span>
+                  <span>
+                    (360 reviews)
+                  </span>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+
+                <div class="card-our-products__footer">
+                  <span>$2.9</span>
+                  <a href="#" class="button button--products">+</a>
+                </div>
+              </div>
+            </div>
+            <!-- Cards -->
+            <div class="card-our-products">
+              <img src="./assets/products/Rectangle_1464.png" class="card-our-products__image" alt="">
+              <div class="card-our-products__body">
+                <div class="card-our-products__title">
+                  Chocolate Latte
+                </div>
+                <div class="card-our-products__caption">
+                  <span>
+                    <i class="fa fa-star active"></i>
+                    4.9
+                  </span>
+                  <span>
+                    (360 reviews)
+                  </span>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+
+                <div class="card-our-products__footer">
+                  <span>$2.9</span>
+                  <a href="#" class="button button--products">+</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </article>
+        <!-- Robusta -->
+        <article class="tab_content" id="robusta">
+          <div class="card-our-products-container">
+            <!-- Cards -->
+            <div class="card-our-products">
+              <img src="./assets/products/Rectangle_1461.png" class="card-our-products__image" alt="">
+              <div class="card-our-products__body">
+                <div class="card-our-products__title">
+                  Chocolate Latte
+                </div>
+                <div class="card-our-products__caption">
+                  <span>
+                    <i class="fa fa-star active"></i>
+                    4.9
+                  </span>
+                  <span>
+                    (360 reviews)
+                  </span>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+
+                <div class="card-our-products__footer">
+                  <span>$2.9</span>
+                  <a href="#" class="button button--products">+</a>
+                </div>
+              </div>
+            </div>
+            <!-- Cards -->
+            <div class="card-our-products">
+              <img src="./assets/products/Rectangle_1462.png" class="card-our-products__image" alt="">
+              <div class="card-our-products__body">
+                <div class="card-our-products__title">
+                  Chocolate Latte
+                </div>
+                <div class="card-our-products__caption">
+                  <span>
+                    <i class="fa fa-star active"></i>
+                    4.9
+                  </span>
+                  <span>
+                    (360 reviews)
+                  </span>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+
+                <div class="card-our-products__footer">
+                  <span>$2.9</span>
+                  <a href="#" class="button button--products">+</a>
+                </div>
+              </div>
+            </div>
+            <!-- Cards -->
+            <div class="card-our-products">
+              <img src="./assets/products/Rectangle_1463.png" class="card-our-products__image" alt="">
+              <div class="card-our-products__body">
+                <div class="card-our-products__title">
+                  Chocolate Latte
+                </div>
+                <div class="card-our-products__caption">
+                  <span>
+                    <i class="fa fa-star active"></i>
+                    4.9
+                  </span>
+                  <span>
+                    (360 reviews)
+                  </span>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+
+                <div class="card-our-products__footer">
+                  <span>$2.9</span>
+                  <a href="#" class="button button--products">+</a>
+                </div>
+              </div>
+            </div>
+            <!-- Cards -->
+            <div class="card-our-products">
+              <img src="./assets/products/Rectangle_1464.png" class="card-our-products__image" alt="">
+              <div class="card-our-products__body">
+                <div class="card-our-products__title">
+                  Chocolate Latte
+                </div>
+                <div class="card-our-products__caption">
+                  <span>
+                    <i class="fa fa-star active"></i>
+                    4.9
+                  </span>
+                  <span>
+                    (360 reviews)
+                  </span>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+
+                <div class="card-our-products__footer">
+                  <span>$2.9</span>
+                  <a href="#" class="button button--products">+</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </article>
+        <!-- Acabica -->
+        <article class="tab_content" id="acabica">
+          <div class="card-our-products-container">
+            <!-- Cards -->
+            <div class="card-our-products">
+              <img src="./assets/products/Rectangle_1461.png" class="card-our-products__image" alt="">
+              <div class="card-our-products__body">
+                <div class="card-our-products__title">
+                  Chocolate Latte
+                </div>
+                <div class="card-our-products__caption">
+                  <span>
+                    <i class="fa fa-star active"></i>
+                    4.9
+                  </span>
+                  <span>
+                    (360 reviews)
+                  </span>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+
+                <div class="card-our-products__footer">
+                  <span>$2.9</span>
+                  <a href="#" class="button button--products">+</a>
+                </div>
+              </div>
+            </div>
+            <!-- Cards -->
+            <div class="card-our-products">
+              <img src="./assets/products/Rectangle_1462.png" class="card-our-products__image" alt="">
+              <div class="card-our-products__body">
+                <div class="card-our-products__title">
+                  Chocolate Latte
+                </div>
+                <div class="card-our-products__caption">
+                  <span>
+                    <i class="fa fa-star active"></i>
+                    4.9
+                  </span>
+                  <span>
+                    (360 reviews)
+                  </span>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+
+                <div class="card-our-products__footer">
+                  <span>$2.9</span>
+                  <a href="#" class="button button--products">+</a>
+                </div>
+              </div>
+            </div>
+            <!-- Cards -->
+            <div class="card-our-products">
+              <img src="./assets/products/Rectangle_1463.png" class="card-our-products__image" alt="">
+              <div class="card-our-products__body">
+                <div class="card-our-products__title">
+                  Chocolate Latte
+                </div>
+                <div class="card-our-products__caption">
+                  <span>
+                    <i class="fa fa-star active"></i>
+                    4.9
+                  </span>
+                  <span>
+                    (360 reviews)
+                  </span>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+
+                <div class="card-our-products__footer">
+                  <span>$2.9</span>
+                  <a href="#" class="button button--products">+</a>
+                </div>
+              </div>
+            </div>
+            <!-- Cards -->
+            <div class="card-our-products">
+              <img src="./assets/products/Rectangle_1464.png" class="card-our-products__image" alt="">
+              <div class="card-our-products__body">
+                <div class="card-our-products__title">
+                  Chocolate Latte
+                </div>
+                <div class="card-our-products__caption">
+                  <span>
+                    <i class="fa fa-star active"></i>
+                    4.9
+                  </span>
+                  <span>
+                    (360 reviews)
+                  </span>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
+
+                <div class="card-our-products__footer">
+                  <span>$2.9</span>
+                  <a href="#" class="button button--products">+</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </article>
+
+      </section>
+    </div>
+
+  </section>
 
   <!-- Testimonial -->
   <hr class="style-two" />
@@ -268,7 +609,11 @@
     </a>
   </section>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script defersrc="https://jsuites.net/v4/jsuites.js"></script>
+  <script src="js/jQueryTab.js"></script>
   <script src="js/script.js"></script>
+  <script src="https://jsuites.net/v4/jsuites.js"></script>
   <script src="https://kit.fontawesome.com/70ee0c3ec7.js" crossorigin="anonymous"></script>
 </body>
 

@@ -32,3 +32,7 @@ Discover tranquility at Ngopi a sanctuary for unwinding, where your evenings are
 
 Coming Soon
 
+## References
+
+- [https://cdnjs.com/libraries/jquery](jQuery)
+- [https://www.jqueryscript.net/layout/Simple-jQuery-Responsive-Tabs-Interface-Plugin-jQueryTab.html](jQueryTab)
