@@ -598,3 +598,61 @@ nav ul li a:hover {
 .button--blog {
   margin-top: var(--padding-margin-size);
 }
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1 1 20%;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section.subscribe input[type="email"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.footer-section.subscribe button {
+    padding: 8px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
