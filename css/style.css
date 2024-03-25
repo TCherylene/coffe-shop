@@ -11,12 +11,10 @@
   --primary: #282a3a;
   --grey: #878891;
   --neutral-grey: #d9d9d9;
-
   --secondary-rgb: 109, 22, 0;
   --primary-rgb: 40, 42, 58;
   --grey-rgb: 135, 136, 145;
   --neutral-grey-rgb: 217, 217, 217;
-
   --padding-margin-size: 5rem;
 }
 
@@ -29,6 +27,8 @@ html {
 
 body {
   background-color: white;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -84,13 +84,6 @@ h6 {
   display: flex;
 }
 
-.grid--container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 10px;
-  padding: 10px;
-}
-
 .title {
   text-align: center;
   margin-bottom: var(--padding-margin-size);
@@ -143,6 +136,47 @@ a.button {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+  padding-bottom: 64px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.image-content {
+  text-align: center;
+}
+
+.image-content img {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.img-one {
+  padding-top: 64px;
+  gap: 16px;
+}
+
+.img-two {
+  padding-bottom: 64px;
+  gap: 16px;
 }
 
 hr.style-two {
@@ -411,7 +445,6 @@ nav ul li a:hover {
   display: flex;
   gap: 1rem;
   justify-content: center;
-
 }
 
 .card-our-products {

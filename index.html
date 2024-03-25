@@ -1,620 +1,748 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Library Tabs -->
+    <link
+      rel="stylesheet"
+      href="https://jsuites.net/v4/jsuites.css"
+      type="text/css"
+    />
+    <link
+      href="https://www.jqueryscript.net/css/jquerysctipttop.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/tabs/jQueryTab.css?v2022"
+      type="text/css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="css/tabs/animation.css?v2022"
+      type="text/css"
+      media="screen"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Library Tabs -->
-  <link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
-  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/tabs/jQueryTab.css?v2022" type="text/css" media="screen" />
-  <link rel="stylesheet" href="css/tabs/animation.css?v2022" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/logo/Logo.png" type="image/x-icon" />
 
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="shortcut icon" href="assets/logo/Logo.png" type="image/x-icon" />
+    <title>Coffeeshop by Ngopi</title>
+  </head>
 
-  <title>Coffeeshop by Ngopi</title>
-</head>
-
-<body>
-  <!-- Navbar -->
-  <nav class="container">
-    <div class="navbar">
-      <div class="">
-        <img src="assets/logo/Logo.png" alt="logo">
+  <body>
+    <!-- Navbar -->
+    <nav class="container">
+      <div class="navbar">
+        <div class="">
+          <img src="assets/logo/Logo.png" alt="logo" />
+        </div>
+        <ul>
+          <li>
+            <a href="#product">Product</a>
+          </li>
+          <li>
+            <a href="#about-us">About us</a>
+          </li>
+          <li>
+            <a href="#testimonial">Testimonial</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="navbar-extra">
+          <a href="#" id="search"
+            ><i class="fa-solid fa-magnifying-glass navbar__icon"></i
+          ></a>
+          <a href="#" id="shopping-cart"
+            ><i class="fa-solid fa-bag-shopping"></i
+          ></a>
+        </div>
       </div>
-      <ul>
-        <li>
-          <a href="#product">Product</a>
-        </li>
-        <li>
-          <a href="#about-us">About us</a>
-        </li>
-        <li>
-          <a href="#testimonial">Testimonial</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-      <div class="navbar-extra">
-        <a href="#" id="search"><i class="fa-solid fa-magnifying-glass navbar__icon"></i></a>
-        <a href="#" id="shopping-cart"><i class="fa-solid fa-bag-shopping"></i></a>
+    </nav>
+
+    <!-- Jumbotron -->
+    <section id="jumbotron">
+      <div class="containerHome">
+        <div class="containerHome2">
+          <div class="containerHome3">
+            <span class="text1">
+              <span>Enjoy Your Favorite</span>
+              <br />
+              <span>Coffee with Ngopi</span>
+            </span>
+            <span class="text2">
+              <span>
+                Discover tranquility at Ngopi a sanctuary for unwinding,
+              </span>
+              <br />
+              <span>
+                where your evenings are perfected with relaxation and rich
+                flavors.
+              </span>
+            </span>
+            <a href="" class="button button-playfair button-rounded-corner">
+              Explore Product
+              <i
+                class="button__icon fa-solid fa-arrow-right fa-rotate-by"
+                style="--fa-rotate-angle: 45deg"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Jumbotron: Image -->
+    <section class="container">
+      <div class="jumbotron__container-image">
+        <img
+          src="assets/jumbotron/Rectangle_1464.png"
+          alt="Rectangle1464135"
+          class="ImgHome"
+        />
+        <img
+          src="assets/jumbotron/Rectangle_1463.png"
+          alt="Rectangle1463136"
+          class="ImgHome"
+        />
+        <img
+          src="assets/jumbotron/Rectangle_1462.png"
+          alt="Rectangle1462137"
+          class="ImgHome"
+        />
+        <img
+          src="assets/jumbotron/Rectangle_1465.png"
+          alt="Rectangle1465138"
+          class="ImgHome"
+        />
+        <img
+          src="assets/jumbotron/Rectangle_1466.png"
+          alt="Rectangle1466139"
+          class="ImgHome"
+        />
+      </div>
+    </section>
+
+    <!-- Jumbotron: Rate -->
+    <hr class="style-two" />
+    <div class="container">
+      <div class="sectionRate">
+        <div class="rate">
+          <span class="textRate1"><span>30+</span></span>
+          <span class="textRate2"><span>Coffee Variant</span></span>
+        </div>
+        <div class="separator"></div>
+        <div class="rate">
+          <span class="textRate1"><span>20+</span></span>
+          <span class="textRate2"><span>Meeting room</span></span>
+        </div>
+        <div class="separator"></div>
+        <div class="rate">
+          <span class="textRate1"><span>25+</span></span>
+          <span class="textRate2"><span>Event space</span></span>
+        </div>
+        <div class="separator"></div>
+        <div class="rate">
+          <span class="textRate1"><span>40+</span></span>
+          <span class="textRate2"><span>Global Achievement</span></span>
+        </div>
       </div>
     </div>
-  </nav>
 
-  <!-- Jumbotron -->
-  <section id="jumbotron">
-    <div class="containerHome">
-      <div class="containerHome2">
-        <div class="containerHome3">
-          <span class="text1">
-            <span>Enjoy Your Favorite</span>
-            <br />
-            <span>Coffee with Ngopi</span>
-          </span>
-          <span class="text2">
+    <!-- Our Products -->
+    <hr class="style-two" />
+    <section class="container" id="our-products">
+      <div class="title">
+        <p class="section-title">Our Products</p>
+        <h3 class="section-subtitle">From Top Quality Materials</h3>
+      </div>
+      <div class="tabs-container">
+        <ul class="tabs">
+          <li><a href="#latte">Latte</a></li>
+          <li><a href="#robusta">Robusta</a></li>
+          <li><a href="#acabica">Acabica</a></li>
+        </ul>
+        <section class="tab_content_wrapper">
+          <!-- Latte -->
+          <article class="tab_content" id="latte">
+            <div class="card-our-products-container">
+              <!-- Cards -->
+              <div class="card-our-products">
+                <img
+                  src="./assets/products/Rectangle_1461.png"
+                  class="card-our-products__image"
+                  alt=""
+                />
+                <div class="card-our-products__body">
+                  <div class="card-our-products__title">Chocolate Latte</div>
+                  <div class="card-our-products__caption">
+                    <span>
+                      <i class="fa fa-star active"></i>
+                      4.9
+                    </span>
+                    <span> (360 reviews) </span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel
+                    sit dolor fringilla
+                  </p>
+
+                  <div class="card-our-products__footer">
+                    <span>$2.9</span>
+                    <a href="#" class="button button--products">+</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Cards -->
+              <div class="card-our-products">
+                <img
+                  src="./assets/products/Rectangle_1462.png"
+                  class="card-our-products__image"
+                  alt=""
+                />
+                <div class="card-our-products__body">
+                  <div class="card-our-products__title">Chocolate Latte</div>
+                  <div class="card-our-products__caption">
+                    <span>
+                      <i class="fa fa-star active"></i>
+                      4.9
+                    </span>
+                    <span> (360 reviews) </span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel
+                    sit dolor fringilla
+                  </p>
+
+                  <div class="card-our-products__footer">
+                    <span>$2.9</span>
+                    <a href="#" class="button button--products">+</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Cards -->
+              <div class="card-our-products">
+                <img
+                  src="./assets/products/Rectangle_1463.png"
+                  class="card-our-products__image"
+                  alt=""
+                />
+                <div class="card-our-products__body">
+                  <div class="card-our-products__title">Chocolate Latte</div>
+                  <div class="card-our-products__caption">
+                    <span>
+                      <i class="fa fa-star active"></i>
+                      4.9
+                    </span>
+                    <span> (360 reviews) </span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel
+                    sit dolor fringilla
+                  </p>
+
+                  <div class="card-our-products__footer">
+                    <span>$2.9</span>
+                    <a href="#" class="button button--products">+</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Cards -->
+              <div class="card-our-products">
+                <img
+                  src="./assets/products/Rectangle_1464.png"
+                  class="card-our-products__image"
+                  alt=""
+                />
+                <div class="card-our-products__body">
+                  <div class="card-our-products__title">Chocolate Latte</div>
+                  <div class="card-our-products__caption">
+                    <span>
+                      <i class="fa fa-star active"></i>
+                      4.9
+                    </span>
+                    <span> (360 reviews) </span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel
+                    sit dolor fringilla
+                  </p>
+
+                  <div class="card-our-products__footer">
+                    <span>$2.9</span>
+                    <a href="#" class="button button--products">+</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- Robusta -->
+          <article class="tab_content" id="robusta">
+            <div class="card-our-products-container">
+              <!-- Cards -->
+              <div class="card-our-products">
+                <img
+                  src="./assets/products/Rectangle_1461.png"
+                  class="card-our-products__image"
+                  alt=""
+                />
+                <div class="card-our-products__body">
+                  <div class="card-our-products__title">Chocolate Latte</div>
+                  <div class="card-our-products__caption">
+                    <span>
+                      <i class="fa fa-star active"></i>
+                      4.9
+                    </span>
+                    <span> (360 reviews) </span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel
+                    sit dolor fringilla
+                  </p>
+
+                  <div class="card-our-products__footer">
+                    <span>$2.9</span>
+                    <a href="#" class="button button--products">+</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Cards -->
+              <div class="card-our-products">
+                <img
+                  src="./assets/products/Rectangle_1462.png"
+                  class="card-our-products__image"
+                  alt=""
+                />
+                <div class="card-our-products__body">
+                  <div class="card-our-products__title">Chocolate Latte</div>
+                  <div class="card-our-products__caption">
+                    <span>
+                      <i class="fa fa-star active"></i>
+                      4.9
+                    </span>
+                    <span> (360 reviews) </span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel
+                    sit dolor fringilla
+                  </p>
+
+                  <div class="card-our-products__footer">
+                    <span>$2.9</span>
+                    <a href="#" class="button button--products">+</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Cards -->
+              <div class="card-our-products">
+                <img
+                  src="./assets/products/Rectangle_1463.png"
+                  class="card-our-products__image"
+                  alt=""
+                />
+                <div class="card-our-products__body">
+                  <div class="card-our-products__title">Chocolate Latte</div>
+                  <div class="card-our-products__caption">
+                    <span>
+                      <i class="fa fa-star active"></i>
+                      4.9
+                    </span>
+                    <span> (360 reviews) </span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel
+                    sit dolor fringilla
+                  </p>
+
+                  <div class="card-our-products__footer">
+                    <span>$2.9</span>
+                    <a href="#" class="button button--products">+</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Cards -->
+              <div class="card-our-products">
+                <img
+                  src="./assets/products/Rectangle_1464.png"
+                  class="card-our-products__image"
+                  alt=""
+                />
+                <div class="card-our-products__body">
+                  <div class="card-our-products__title">Chocolate Latte</div>
+                  <div class="card-our-products__caption">
+                    <span>
+                      <i class="fa fa-star active"></i>
+                      4.9
+                    </span>
+                    <span> (360 reviews) </span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel
+                    sit dolor fringilla
+                  </p>
+
+                  <div class="card-our-products__footer">
+                    <span>$2.9</span>
+                    <a href="#" class="button button--products">+</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- Acabica -->
+          <article class="tab_content" id="acabica">
+            <div class="card-our-products-container">
+              <!-- Cards -->
+              <div class="card-our-products">
+                <img
+                  src="./assets/products/Rectangle_1461.png"
+                  class="card-our-products__image"
+                  alt=""
+                />
+                <div class="card-our-products__body">
+                  <div class="card-our-products__title">Chocolate Latte</div>
+                  <div class="card-our-products__caption">
+                    <span>
+                      <i class="fa fa-star active"></i>
+                      4.9
+                    </span>
+                    <span> (360 reviews) </span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel
+                    sit dolor fringilla
+                  </p>
+
+                  <div class="card-our-products__footer">
+                    <span>$2.9</span>
+                    <a href="#" class="button button--products">+</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Cards -->
+              <div class="card-our-products">
+                <img
+                  src="./assets/products/Rectangle_1462.png"
+                  class="card-our-products__image"
+                  alt=""
+                />
+                <div class="card-our-products__body">
+                  <div class="card-our-products__title">Chocolate Latte</div>
+                  <div class="card-our-products__caption">
+                    <span>
+                      <i class="fa fa-star active"></i>
+                      4.9
+                    </span>
+                    <span> (360 reviews) </span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel
+                    sit dolor fringilla
+                  </p>
+
+                  <div class="card-our-products__footer">
+                    <span>$2.9</span>
+                    <a href="#" class="button button--products">+</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Cards -->
+              <div class="card-our-products">
+                <img
+                  src="./assets/products/Rectangle_1463.png"
+                  class="card-our-products__image"
+                  alt=""
+                />
+                <div class="card-our-products__body">
+                  <div class="card-our-products__title">Chocolate Latte</div>
+                  <div class="card-our-products__caption">
+                    <span>
+                      <i class="fa fa-star active"></i>
+                      4.9
+                    </span>
+                    <span> (360 reviews) </span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel
+                    sit dolor fringilla
+                  </p>
+
+                  <div class="card-our-products__footer">
+                    <span>$2.9</span>
+                    <a href="#" class="button button--products">+</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Cards -->
+              <div class="card-our-products">
+                <img
+                  src="./assets/products/Rectangle_1464.png"
+                  class="card-our-products__image"
+                  alt=""
+                />
+                <div class="card-our-products__body">
+                  <div class="card-our-products__title">Chocolate Latte</div>
+                  <div class="card-our-products__caption">
+                    <span>
+                      <i class="fa fa-star active"></i>
+                      4.9
+                    </span>
+                    <span> (360 reviews) </span>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel
+                    sit dolor fringilla
+                  </p>
+
+                  <div class="card-our-products__footer">
+                    <span>$2.9</span>
+                    <a href="#" class="button button--products">+</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      </div>
+    </section>
+    <hr class="style-two" />
+    <section class="container" id="about-us">
+      <div class="title">
+        <p class="section-title">About Us</p>
+        <h3 class="section-subtitle">Why we are the best</h3>
+      </div>
+      <div class="row">
+        <div class="grid-container">
+          <div class="text-content">
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit
+              dolor fringilla volutpat lectus amet. Integer sed pretium odio
+              lectus at malesuada sed eget nunc. Viverra malesuada viverra id
+              vel tortor dui adipiscing.
+            </p>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit
+              dolor fringilla volutpat lectus amet. Integer sed pretium odio
+              lectus at malesuada sed eget nunc.
+            </p>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit
+              dolor fringilla volutpat lectus amet.
+            </p>
+            <a href="#" class="button button-playfair button-rounded-corner">
+              READ MORE<i
+                class="button__icon fa-solid fa-arrow-right fa-rotate-by"
+                style="--fa-rotate-angle: 45deg"
+              ></i>
+            </a>
+          </div>
+          <div class="image-content">
+            <img
+              src="assets/jumbotron/Rectangle_1463.png"
+              alt="Rectangle1464135"
+              class="img-one"
+            />
+            <img
+              src="assets/jumbotron/Rectangle_1464.png"
+              alt="Rectangle1464135"
+              class="img-two"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial -->
+    <hr class="style-two" />
+    <section class="container" id="testimonial">
+      <div class="title">
+        <p class="section-title">Testimonial</p>
+        <h3 class="section-subtitle">What our buyers say</h3>
+      </div>
+      <div class="row row--testimonial">
+        <div class="card-testimonial">
+          <div class="card-testimonial__header">
+            <img src="assets/testimonial/Ellipse_1.png" alt="" />
+            <div>
+              <p class="card-testimonial__header-name">Michael Wong</p>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            </div>
+          </div>
+          <div class="card-testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit
+              dolor fringilla volutpat lectus amet. Integer sed pretium odio
+              lectus at malesuada sed eget nunc. Viverra malesuada viverra id
+              vel tortor dui adipiscing.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-testimonial">
+          <div class="card-testimonial__header">
+            <img src="assets/testimonial/Ellipse_3.png" alt="" />
+            <div>
+              <p class="card-testimonial__header-name">Avril Song</p>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #d9d9d9"></i>
+            </div>
+          </div>
+          <div class="card-testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit
+              dolor fringilla volutpat lectus amet. Integer sed pretium odio
+              lectus at malesuada sed eget nunc.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-testimonial">
+          <div class="card-testimonial__header">
+            <img src="assets/testimonial/Ellipse_2.png" alt="" />
+            <div>
+              <p class="card-testimonial__header-name">Jeanne Wood</p>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #d9d9d9"></i>
+            </div>
+          </div>
+          <div class="card-testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit
+              dolor fringilla volutpat lectus amet. Integer sed pretium odio
+              lectus at malesuada sed eget nunc. Viverra malesuada viverra id
+              vel tortor dui adipiscing.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-carousel-navigation">
+        <div class="ellipse-active"></div>
+        <div class="ellipse"></div>
+        <div class="ellipse"></div>
+        <div class="ellipse"></div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <hr class="style-two" />
+    <section class="container" id="blog">
+      <div class="title">
+        <p class="section-title">Blog</p>
+        <h3 class="section-subtitle">Read our articles</h3>
+      </div>
+      <div class="row row--blog">
+        <div class="card-blog">
+          <img src="./assets/blog/Rectangle_1461.png" alt="" />
+          <div class="card-blog__caption">
             <span>
-              Discover tranquility at Ngopi a sanctuary for unwinding,
+              <i class="card-blog__caption--icon fa-solid fa-user"></i>
+              John Doe
             </span>
-            <br />
+
             <span>
-              where your evenings are perfected with relaxation and rich
-              flavors.
+              <i class="card-blog__caption--icon fa-solid fa-calendar"></i>
+              Feb 23, 2024
             </span>
-          </span>
-          <a href="" class="button button-playfair button-rounded-corner">
-            Explore Product
-            <i class="button__icon fa-solid fa-arrow-right fa-rotate-by" style="--fa-rotate-angle: 45deg"></i>
+          </div>
+          <p class="card-blog__body">
+            Lorem ipsum dolor sit amet consectetur. Est tempor morbi
+            pellentesque.
+          </p>
+          <a href="#" class="card-blog__footer">
+            View Details <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+
+        <div class="card-blog">
+          <img src="./assets/blog/Rectangle_1461.png" alt="" />
+          <div class="card-blog__caption">
+            <span>
+              <i class="card-blog__caption--icon fa-solid fa-user"></i>
+              John Doe
+            </span>
+
+            <span>
+              <i class="card-blog__caption--icon fa-solid fa-calendar"></i>
+              Feb 23, 2024
+            </span>
+          </div>
+          <p class="card-blog__body">
+            Lorem ipsum dolor sit amet consectetur. Est tempor morbi
+            pellentesque.
+          </p>
+          <a href="#" class="card-blog__footer">
+            View Details <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+
+        <div class="card-blog">
+          <img src="./assets/blog/Rectangle_1461.png" alt="" />
+          <div class="card-blog__caption">
+            <span>
+              <i class="card-blog__caption--icon fa-solid fa-user"></i>
+              John Doe
+            </span>
+
+            <span>
+              <i class="card-blog__caption--icon fa-solid fa-calendar"></i>
+              Feb 23, 2024
+            </span>
+          </div>
+          <p class="card-blog__body">
+            Lorem ipsum dolor sit amet consectetur. Est tempor morbi
+            pellentesque.
+          </p>
+          <a href="#" class="card-blog__footer">
+            View Details <i class="fa-solid fa-chevron-right"></i>
           </a>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Jumbotron: Image -->
-  <section class="container">
-    <div class="jumbotron__container-image">
-      <img src="assets/jumbotron/Rectangle_1464.png" alt="Rectangle1464135" class="ImgHome" />
-      <img src="assets/jumbotron/Rectangle_1463.png" alt="Rectangle1463136" class="ImgHome" />
-      <img src="assets/jumbotron/Rectangle_1462.png" alt="Rectangle1462137" class="ImgHome" />
-      <img src="assets/jumbotron/Rectangle_1465.png" alt="Rectangle1465138" class="ImgHome" />
-      <img src="assets/jumbotron/Rectangle_1466.png" alt="Rectangle1466139" class="ImgHome" />
-    </div>
-  </section>
+      <a
+        href=""
+        class="button button-playfair button-rounded-corner button--blog"
+      >
+        Read More<i
+          class="button__icon fa-solid fa-arrow-right fa-rotate-by"
+          style="--fa-rotate-angle: 45deg"
+        ></i>
+      </a>
+    </section>
 
-  <!-- Jumbotron: Rate -->
-  <hr class="style-two">
-  <div class="container">
-    <div class="sectionRate">
-      <div class="rate">
-        <span class="textRate1"><span>30+</span></span>
-        <span class="textRate2"><span>Coffee Variant</span></span>
-      </div>
-      <div class="separator"></div>
-      <div class="rate">
-        <span class="textRate1"><span>20+</span></span>
-        <span class="textRate2"><span>Meeting room</span></span>
-      </div>
-      <div class="separator"></div>
-      <div class="rate">
-        <span class="textRate1"><span>25+</span></span>
-        <span class="textRate2"><span>Event space</span></span>
-      </div>
-      <div class="separator"></div>
-      <div class="rate">
-        <span class="textRate1"><span>40+</span></span>
-        <span class="textRate2"><span>Global Achievement</span></span>
-      </div>
-    </div>
-  </div>
-
-  <!-- Our Products -->
-  <hr class="style-two" />
-  <section class="container" id="our-products">
-    <div class="title">
-      <p class="section-title">Our Products</p>
-      <h3 class="section-subtitle">From Top Quality Materials</h3>
-    </div>
-    <div class="tabs-container">
-      <ul class="tabs">
-        <li><a href="#latte">Latte</a></li>
-        <li><a href="#robusta">Robusta</a></li>
-        <li><a href="#acabica">Acabica</a></li>
-      </ul>
-      <section class="tab_content_wrapper">
-        <!-- Latte -->
-        <article class="tab_content" id="latte">
-          <div class="card-our-products-container">
-            <!-- Cards -->
-            <div class="card-our-products">
-              <img src="./assets/products/Rectangle_1461.png" class="card-our-products__image" alt="">
-              <div class="card-our-products__body">
-                <div class="card-our-products__title">
-                  Chocolate Latte
-                </div>
-                <div class="card-our-products__caption">
-                  <span>
-                    <i class="fa fa-star active"></i>
-                    4.9
-                  </span>
-                  <span>
-                    (360 reviews)
-                  </span>
-                </div>
-
-                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
-
-                <div class="card-our-products__footer">
-                  <span>$2.9</span>
-                  <a href="#" class="button button--products">+</a>
-                </div>
-              </div>
-            </div>
-            <!-- Cards -->
-            <div class="card-our-products">
-              <img src="./assets/products/Rectangle_1462.png" class="card-our-products__image" alt="">
-              <div class="card-our-products__body">
-                <div class="card-our-products__title">
-                  Chocolate Latte
-                </div>
-                <div class="card-our-products__caption">
-                  <span>
-                    <i class="fa fa-star active"></i>
-                    4.9
-                  </span>
-                  <span>
-                    (360 reviews)
-                  </span>
-                </div>
-
-                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
-
-                <div class="card-our-products__footer">
-                  <span>$2.9</span>
-                  <a href="#" class="button button--products">+</a>
-                </div>
-              </div>
-            </div>
-            <!-- Cards -->
-            <div class="card-our-products">
-              <img src="./assets/products/Rectangle_1463.png" class="card-our-products__image" alt="">
-              <div class="card-our-products__body">
-                <div class="card-our-products__title">
-                  Chocolate Latte
-                </div>
-                <div class="card-our-products__caption">
-                  <span>
-                    <i class="fa fa-star active"></i>
-                    4.9
-                  </span>
-                  <span>
-                    (360 reviews)
-                  </span>
-                </div>
-
-                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
-
-                <div class="card-our-products__footer">
-                  <span>$2.9</span>
-                  <a href="#" class="button button--products">+</a>
-                </div>
-              </div>
-            </div>
-            <!-- Cards -->
-            <div class="card-our-products">
-              <img src="./assets/products/Rectangle_1464.png" class="card-our-products__image" alt="">
-              <div class="card-our-products__body">
-                <div class="card-our-products__title">
-                  Chocolate Latte
-                </div>
-                <div class="card-our-products__caption">
-                  <span>
-                    <i class="fa fa-star active"></i>
-                    4.9
-                  </span>
-                  <span>
-                    (360 reviews)
-                  </span>
-                </div>
-
-                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
-
-                <div class="card-our-products__footer">
-                  <span>$2.9</span>
-                  <a href="#" class="button button--products">+</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </article>
-        <!-- Robusta -->
-        <article class="tab_content" id="robusta">
-          <div class="card-our-products-container">
-            <!-- Cards -->
-            <div class="card-our-products">
-              <img src="./assets/products/Rectangle_1461.png" class="card-our-products__image" alt="">
-              <div class="card-our-products__body">
-                <div class="card-our-products__title">
-                  Chocolate Latte
-                </div>
-                <div class="card-our-products__caption">
-                  <span>
-                    <i class="fa fa-star active"></i>
-                    4.9
-                  </span>
-                  <span>
-                    (360 reviews)
-                  </span>
-                </div>
-
-                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
-
-                <div class="card-our-products__footer">
-                  <span>$2.9</span>
-                  <a href="#" class="button button--products">+</a>
-                </div>
-              </div>
-            </div>
-            <!-- Cards -->
-            <div class="card-our-products">
-              <img src="./assets/products/Rectangle_1462.png" class="card-our-products__image" alt="">
-              <div class="card-our-products__body">
-                <div class="card-our-products__title">
-                  Chocolate Latte
-                </div>
-                <div class="card-our-products__caption">
-                  <span>
-                    <i class="fa fa-star active"></i>
-                    4.9
-                  </span>
-                  <span>
-                    (360 reviews)
-                  </span>
-                </div>
-
-                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
-
-                <div class="card-our-products__footer">
-                  <span>$2.9</span>
-                  <a href="#" class="button button--products">+</a>
-                </div>
-              </div>
-            </div>
-            <!-- Cards -->
-            <div class="card-our-products">
-              <img src="./assets/products/Rectangle_1463.png" class="card-our-products__image" alt="">
-              <div class="card-our-products__body">
-                <div class="card-our-products__title">
-                  Chocolate Latte
-                </div>
-                <div class="card-our-products__caption">
-                  <span>
-                    <i class="fa fa-star active"></i>
-                    4.9
-                  </span>
-                  <span>
-                    (360 reviews)
-                  </span>
-                </div>
-
-                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
-
-                <div class="card-our-products__footer">
-                  <span>$2.9</span>
-                  <a href="#" class="button button--products">+</a>
-                </div>
-              </div>
-            </div>
-            <!-- Cards -->
-            <div class="card-our-products">
-              <img src="./assets/products/Rectangle_1464.png" class="card-our-products__image" alt="">
-              <div class="card-our-products__body">
-                <div class="card-our-products__title">
-                  Chocolate Latte
-                </div>
-                <div class="card-our-products__caption">
-                  <span>
-                    <i class="fa fa-star active"></i>
-                    4.9
-                  </span>
-                  <span>
-                    (360 reviews)
-                  </span>
-                </div>
-
-                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
-
-                <div class="card-our-products__footer">
-                  <span>$2.9</span>
-                  <a href="#" class="button button--products">+</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </article>
-        <!-- Acabica -->
-        <article class="tab_content" id="acabica">
-          <div class="card-our-products-container">
-            <!-- Cards -->
-            <div class="card-our-products">
-              <img src="./assets/products/Rectangle_1461.png" class="card-our-products__image" alt="">
-              <div class="card-our-products__body">
-                <div class="card-our-products__title">
-                  Chocolate Latte
-                </div>
-                <div class="card-our-products__caption">
-                  <span>
-                    <i class="fa fa-star active"></i>
-                    4.9
-                  </span>
-                  <span>
-                    (360 reviews)
-                  </span>
-                </div>
-
-                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
-
-                <div class="card-our-products__footer">
-                  <span>$2.9</span>
-                  <a href="#" class="button button--products">+</a>
-                </div>
-              </div>
-            </div>
-            <!-- Cards -->
-            <div class="card-our-products">
-              <img src="./assets/products/Rectangle_1462.png" class="card-our-products__image" alt="">
-              <div class="card-our-products__body">
-                <div class="card-our-products__title">
-                  Chocolate Latte
-                </div>
-                <div class="card-our-products__caption">
-                  <span>
-                    <i class="fa fa-star active"></i>
-                    4.9
-                  </span>
-                  <span>
-                    (360 reviews)
-                  </span>
-                </div>
-
-                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
-
-                <div class="card-our-products__footer">
-                  <span>$2.9</span>
-                  <a href="#" class="button button--products">+</a>
-                </div>
-              </div>
-            </div>
-            <!-- Cards -->
-            <div class="card-our-products">
-              <img src="./assets/products/Rectangle_1463.png" class="card-our-products__image" alt="">
-              <div class="card-our-products__body">
-                <div class="card-our-products__title">
-                  Chocolate Latte
-                </div>
-                <div class="card-our-products__caption">
-                  <span>
-                    <i class="fa fa-star active"></i>
-                    4.9
-                  </span>
-                  <span>
-                    (360 reviews)
-                  </span>
-                </div>
-
-                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
-
-                <div class="card-our-products__footer">
-                  <span>$2.9</span>
-                  <a href="#" class="button button--products">+</a>
-                </div>
-              </div>
-            </div>
-            <!-- Cards -->
-            <div class="card-our-products">
-              <img src="./assets/products/Rectangle_1464.png" class="card-our-products__image" alt="">
-              <div class="card-our-products__body">
-                <div class="card-our-products__title">
-                  Chocolate Latte
-                </div>
-                <div class="card-our-products__caption">
-                  <span>
-                    <i class="fa fa-star active"></i>
-                    4.9
-                  </span>
-                  <span>
-                    (360 reviews)
-                  </span>
-                </div>
-
-                <p>Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</p>
-
-                <div class="card-our-products__footer">
-                  <span>$2.9</span>
-                  <a href="#" class="button button--products">+</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </article>
-
-      </section>
-    </div>
-
-  </section>
-
-  <!-- Testimonial -->
-  <hr class="style-two" />
-  <section class="container" id="testimonial">
-    <div class="title">
-      <p class="section-title">Testimonial</p>
-      <h3 class="section-subtitle">What our buyers say</h3>
-    </div>
-    <div class="row row--testimonial">
-      <div class="card-testimonial">
-        <div class="card-testimonial__header">
-          <img src="assets/testimonial/Ellipse_1.png" alt="" />
-          <div>
-            <p class="card-testimonial__header-name">Michael Wong</p>
-            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-          </div>
-        </div>
-        <div class="card-testimonial__body">
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit
-            dolor fringilla volutpat lectus amet. Integer sed pretium odio
-            lectus at malesuada sed eget nunc. Viverra malesuada viverra id
-            vel tortor dui adipiscing.
-          </p>
-        </div>
-      </div>
-
-      <div class="card-testimonial">
-        <div class="card-testimonial__header">
-          <img src="assets/testimonial/Ellipse_3.png" alt="" />
-          <div>
-            <p class="card-testimonial__header-name">Avril Song</p>
-            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-            <i class="fa-solid fa-star" style="color: #d9d9d9"></i>
-          </div>
-        </div>
-        <div class="card-testimonial__body">
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit
-            dolor fringilla volutpat lectus amet. Integer sed pretium odio
-            lectus at malesuada sed eget nunc.
-          </p>
-        </div>
-      </div>
-
-      <div class="card-testimonial">
-        <div class="card-testimonial__header">
-          <img src="assets/testimonial/Ellipse_2.png" alt="" />
-          <div>
-            <p class="card-testimonial__header-name">Jeanne Wood</p>
-            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
-            <i class="fa-solid fa-star" style="color: #d9d9d9"></i>
-          </div>
-        </div>
-        <div class="card-testimonial__body">
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit
-            dolor fringilla volutpat lectus amet. Integer sed pretium odio
-            lectus at malesuada sed eget nunc. Viverra malesuada viverra id
-            vel tortor dui adipiscing.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="testimonial-carousel-navigation">
-      <div class="ellipse-active"></div>
-      <div class="ellipse"></div>
-      <div class="ellipse"></div>
-      <div class="ellipse"></div>
-    </div>
-  </section>
-
-  <!-- Blog -->
-  <hr class="style-two" />
-  <section class="container" id="blog">
-    <div class="title">
-      <p class="section-title">Blog</p>
-      <h3 class="section-subtitle">Read our articles</h3>
-    </div>
-    <div class="row row--blog">
-      <div class="card-blog">
-        <img src="./assets/blog/Rectangle_1461.png" alt="" />
-        <div class="card-blog__caption">
-          <span>
-            <i class="card-blog__caption--icon fa-solid fa-user"></i>
-            John Doe
-          </span>
-
-          <span>
-            <i class="card-blog__caption--icon fa-solid fa-calendar"></i>
-            Feb 23, 2024
-          </span>
-        </div>
-        <p class="card-blog__body">
-          Lorem ipsum dolor sit amet consectetur. Est tempor morbi
-          pellentesque.
-        </p>
-        <a href="#" class="card-blog__footer">
-          View Details <i class="fa-solid fa-chevron-right"></i>
-        </a>
-      </div>
-
-      <div class="card-blog">
-        <img src="./assets/blog/Rectangle_1461.png" alt="" />
-        <div class="card-blog__caption">
-          <span>
-            <i class="card-blog__caption--icon fa-solid fa-user"></i>
-            John Doe
-          </span>
-
-          <span>
-            <i class="card-blog__caption--icon fa-solid fa-calendar"></i>
-            Feb 23, 2024
-          </span>
-        </div>
-        <p class="card-blog__body">
-          Lorem ipsum dolor sit amet consectetur. Est tempor morbi
-          pellentesque.
-        </p>
-        <a href="#" class="card-blog__footer">
-          View Details <i class="fa-solid fa-chevron-right"></i>
-        </a>
-      </div>
-
-      <div class="card-blog">
-        <img src="./assets/blog/Rectangle_1461.png" alt="" />
-        <div class="card-blog__caption">
-          <span>
-            <i class="card-blog__caption--icon fa-solid fa-user"></i>
-            John Doe
-          </span>
-
-          <span>
-            <i class="card-blog__caption--icon fa-solid fa-calendar"></i>
-            Feb 23, 2024
-          </span>
-        </div>
-        <p class="card-blog__body">
-          Lorem ipsum dolor sit amet consectetur. Est tempor morbi
-          pellentesque.
-        </p>
-        <a href="#" class="card-blog__footer">
-          View Details <i class="fa-solid fa-chevron-right"></i>
-        </a>
-      </div>
-    </div>
-
-    <a href="" class="button button-playfair button-rounded-corner button--blog">
-      Read More<i class="button__icon fa-solid fa-arrow-right fa-rotate-by" style="--fa-rotate-angle: 45deg"></i>
-    </a>
-  </section>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script defersrc="https://jsuites.net/v4/jsuites.js"></script>
-  <script src="js/jQueryTab.js"></script>
-  <script src="js/script.js"></script>
-  <script src="https://jsuites.net/v4/jsuites.js"></script>
-  <script src="https://kit.fontawesome.com/70ee0c3ec7.js" crossorigin="anonymous"></script>
-</body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defersrc="https://jsuites.net/v4/jsuites.js"></script>
+    <script src="js/jQueryTab.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://jsuites.net/v4/jsuites.js"></script>
+    <script
+      src="https://kit.fontawesome.com/70ee0c3ec7.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

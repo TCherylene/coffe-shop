@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: center;
+      }
+
+      .text-content {
+        text-align: justify;
+      }
+
+      h2 {
+        font-size: 24px;
+        color: #666;
+      }
+
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+
+      .read-more {
+        background-color: #a52a2a;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+
+      .image-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .image-content img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin: 0 10px;
+        border-radius: 50%;
+      }
+    </style>
+
+    <div class="container">
+      <div class="grid-container">
+        <div class="text-content">
+          <h2>About us</h2>
+          <h1>Why we are the best</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit
+            dolor fringilla volutpat lectus amet. Integer sed pretium odio
+            lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel
+            tortor dui adipiscing.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit
+            dolor fringilla volutpat lectus amet. Integer sed pretium odio
+            lectus at malesuada sed eget nunc.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit
+            dolor fringilla volutpat lectus amet.
+          </p>
+          <button class="read-more">READ MORE</button>
+        </div>
+        <div class="image-content">
+          <img src="coffee-beans.jpg" alt="Coffee Beans" />
+          <img src="coffee-cup.jpg" alt="Coffee Cup" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
